@@ -422,7 +422,7 @@ class Polygon(GeometrySet):
         A = self.area
         c_x = self.centroid[0]
         c_y = self.centroid[1]
-        # parallel axis theorem
+        # parallel axis theorefnjjjj
         I_xx_c = (I_xx/12) - (A*(c_y**2))
         I_yy_c = (I_yy/12) - (A*(c_x**2))
         I_xy_c = (I_xy/24) - (A*(c_x*c_y))
